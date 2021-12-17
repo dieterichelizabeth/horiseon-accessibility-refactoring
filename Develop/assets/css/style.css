@@ -135,7 +135,11 @@ p {
   max-width: 150px;
 }
 
-.search-engine-optimization {
+/* Begin what we offer styling */
+/* COMPLETE- created one class for search engine optimization, online rep, and social media sytling */
+/* what this does- consolidates code- leaving it cleaner */
+/* Styles the what-we-offer class */
+.what-we-offer {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -144,50 +148,17 @@ p {
   color: #ffffff;
 }
 
-.online-reputation-management {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.social-media-marketing {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* Selects images w/in the what-we-offer class */
+.what-we-offer img {
   max-height: 200px;
 }
 
-.online-reputation-management img {
-  max-height: 200px;
-}
-
-.social-media-marketing img {
-  max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/* Styles h2 element */
+.h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
-
-.online-reputation-management h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.social-media-marketing h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
+/* End what-we-offer styling */
 
 .footer {
   padding: 30px;
@@ -197,6 +168,7 @@ p {
   text-align: center;
 }
 
+/* OVERRIDES THE PREVIOUS H2 STYLING */
 .footer h2 {
   font-size: 20px;
 }
