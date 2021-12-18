@@ -4,16 +4,21 @@
   margin: 0;
 }
 
-body {
-  background-color: #d9dcd6;
-}
-
+/* apply styles to header */
 .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   background-color: #2a607c;
   color: #ffffff;
+}
+
+.header div {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
 }
 
 .header h1 {
@@ -25,14 +30,6 @@ body {
   color: #d9dcd6;
 }
 
-.header div {
-  padding-top: 15px;
-  margin-right: 20px;
-  float: right;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 20px;
-}
-
 .header div ul {
   list-style-type: none;
 }
@@ -41,10 +38,15 @@ body {
   display: inline-block;
   margin-left: 25px;
 }
+/* End apply styles to header */
 
 a {
   color: #ffffff;
   text-decoration: none;
+}
+
+body {
+  background-color: #d9dcd6;
 }
 
 p {
@@ -60,6 +62,8 @@ p {
   background-position: center;
 }
 
+/* Use method from runBuddy to fload images? */
+/* Float method is similar- in RunBuddy floated text- here float images */
 .float-left {
   float: left;
   margin-right: 25px;
@@ -75,42 +79,6 @@ p {
   display: inline-block;
   margin-left: 20px;
 }
-
-/* Begin benefits styling */
-/* CONSOLIDATED BENEFITS STYLE SHEET */
-/* COMPLETE- created one class for lead generation, brand awareness, and cost management sytling */
-.benefits {
-  margin-right: 20px;
-  padding: 20px;
-  clear: both;
-  float: right;
-  width: 20%;
-  height: 100%;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #2589bd;
-}
-
-/* text styling- selects .what-you-get class w/in the .benefits class */
-.benefits,
-.what-you-get {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-/* text styiling-  selects h3 w/in .what-you-get class w/in the .benefits class */
-.benefits,
-.what-you-get h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-/* image styiling-  selects images w/in .what-you-get class w/in the .benefits class */
-.what-you-get img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-/* End Benefits styling */
 
 /* Begin what we offer styling */
 /* COMPLETE- created one class for search engine optimization, online rep, and social media sytling */
@@ -136,6 +104,42 @@ p {
   font-size: 36px;
 }
 /* End what-we-offer styling */
+
+/* Begin benefits styling */
+/* CONSOLIDATED BENEFITS STYLE SHEET */
+/* COMPLETE- created one class for lead generation, brand awareness, and cost management sytling */
+.benefits {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2589bd;
+}
+
+/* selects .what-you-get class w/in the .benefits class */
+.benefits,
+.what-you-get {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+/* text styiling-  selects h3 w/in .what-you-get class w/in the .benefits class */
+.benefits,
+.what-you-get h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* selects images w/in .what-you-get class w/in the .benefits class */
+.what-you-get img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+/* End Benefits styling */
 
 .footer {
   padding: 30px;
