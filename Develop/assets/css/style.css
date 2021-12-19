@@ -4,7 +4,7 @@
   margin: 0;
 }
 
-/* BEGIN apply styles to header */
+/* Begin styles to Header */
 .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -22,7 +22,7 @@
   color: #d9dcd6;
 }
 
-/* styles the nav */
+/* Begin styles to Nav */
 .header div {
   padding-top: 15px;
   margin-right: 20px;
@@ -34,9 +34,14 @@
   display: inline-block;
   margin-left: 25px;
 }
-/* END apply styles to header */
 
-/* image for hero */
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+/* End styles to Header and Nav */
+
+/* The Image for Hero Section */
 .hero {
   height: 800px;
   width: 100%;
@@ -46,26 +51,15 @@
   background-position: center;
 }
 
-/* ? */
-a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-/* ? */
 body {
   background-color: #d9dcd6;
 }
 
-/* ? */
 p {
   font-size: 16px;
 }
 
-/* BEGIN what we offer styling */
-/* COMPLETE- created one class for search engine optimization, online rep, and social media sytling */
-/* what this does- consolidates code- leaving it cleaner */
-/* Styles the what-we-offer class */
+/* Begin styles to What We Offer */
 .what-we-offer {
   margin-bottom: 20px;
   padding: 50px;
@@ -75,13 +69,10 @@ p {
   color: #ffffff;
 }
 
-/* Selects images w/in the what-we-offer class */
 .what-we-offer img {
   max-height: 200px;
 }
 
-/* Use method from runBuddy to fload images? */
-/* Float method is similar- in RunBuddy floated text- here float images */
 .float-left {
   float: left;
   margin-right: 25px;
@@ -92,24 +83,19 @@ p {
   margin-left: 25px;
 }
 
-/* Styles blue boxes for what-we-do */
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
-/* Styles h2 element */
 .h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
-/* END what-we-offer styling */
+/* End styles to What We Offer */
 
-/* BEGIN benefits styling */
-/* CONSOLIDATED BENEFITS STYLE SHEET */
-/* COMPLETE- created one class for lead generation, brand awareness, and cost management sytling */
-/* ? */
+/* Begin styles to What You Get */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -121,29 +107,26 @@ p {
   background-color: #2589bd;
 }
 
-/* selects .what-you-get class w/in the .benefits class */
 .benefits,
 .what-you-get {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
-/* text styiling-  selects h3 w/in .what-you-get class w/in the .benefits class */
 .benefits,
 .what-you-get h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
-/* selects images w/in .what-you-get class w/in the .benefits class */
 .what-you-get img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
-/* END Benefits styling */
+/* End styles to What You Get */
 
-/* BEGIN styling footer */
+/* Begin styles to Footer */
 .footer {
   padding: 30px;
   clear: both;
@@ -152,7 +135,9 @@ p {
   text-align: center;
 }
 
-/* overrides the previous h2 styling */
 .footer h2 {
   font-size: 20px;
 }
+
+/* COMPLETE- created one class for lead generation, brand awareness, and cost management sytling */
+/* COMPLETE- created one class for search engine optimization, online rep, and social media sytling */
