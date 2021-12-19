@@ -39,7 +39,16 @@ a {
   color: #ffffff;
   text-decoration: none;
 }
-/* End styles to Header and Nav */
+/* End styles to Nav */
+/* End styles to Header */
+
+body {
+  background-color: #d9dcd6;
+}
+
+p {
+  font-size: 16px;
+}
 
 /* The Image for Hero Section */
 .hero {
@@ -49,14 +58,6 @@ a {
   background-image: url("../images/digital-marketing-meeting.jpg");
   background-size: cover;
   background-position: center;
-}
-
-body {
-  background-color: #d9dcd6;
-}
-
-p {
-  font-size: 16px;
 }
 
 /* Begin styles to What We Offer */
@@ -89,7 +90,7 @@ p {
   margin-left: 20px;
 }
 
-.h2 {
+.what-we-offer .h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
@@ -135,9 +136,10 @@ p {
   text-align: center;
 }
 
-.footer h2 {
+.footer .h2 {
   font-size: 20px;
 }
 
 /* COMPLETE- created one class for lead generation, brand awareness, and cost management sytling */
 /* COMPLETE- created one class for search engine optimization, online rep, and social media sytling */
+/* REMAINING- FONT SIZE MATCH W/ MOCKUP, REVIEW ALT DESCRIPTIONS, README FILE*/
