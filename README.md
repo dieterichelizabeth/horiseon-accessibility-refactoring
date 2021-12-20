@@ -30,10 +30,6 @@ THEN I find a concise, descriptive title"
 
 To complete this, I pulled source code from [Course Repo](https://github.com/the-Coding-Boot-Camp-at-UT/UTA-VIRT-BO-FSF-PT-12-2021-U-B), reviewed and added semantic elements to the HTML. This code also has alt text next to the images as descriptions for audio listeners. I restructured the stylesheet to group similar elements and included comments for easier access/understanding for future development. Lastly, I fixed the broken link to "Search Engine Optimization".
 
-## You can view the latest
-
-INSERT LINK TO HOMEPAGE OF PROJECT!!
-
 ## Used For
 
 This project is a challenge/portfolio piece. For review of
