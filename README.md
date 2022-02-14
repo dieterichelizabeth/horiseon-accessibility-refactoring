@@ -28,17 +28,14 @@ WHEN I view the title element
 THEN I find a concise, descriptive title"
 ```
 
-To complete this, I pulled source code from [Course Repo](https://github.com/the-Coding-Boot-Camp-at-UT/UTA-VIRT-BO-FSF-PT-12-2021-U-B), reviewed and added semantic elements to the HTML. This code also has alt text next to the images as descriptions for audio listeners. I restructured the stylesheet to group similar elements and included comments for easier access/understanding for future development. Lastly, I fixed the broken link to "Search Engine Optimization".
-
-## Used For
-
-This project is a challenge/portfolio piece. For review of
-
-- UTA Coding Bootcamp
-- © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+To complete this, I pulled source code from [Course Repo](https://github.com/the-Coding-Boot-Camp-at-UT/UTA-VIRT-BO-FSF-PT-12-2021-U-B), reviewed and added semantic elements to the HTML. Updates include alt text next to the images as descriptions for audio listeners. I restructured the stylesheet to group similar elements and included comments for easier access/understanding for future development. Lastly, I fixed the broken link to "Search Engine Optimization".
 
 ## Resources
 
 - [Alt Text Resource](https://moz.com/learn/seo/alt-text) (Thank you Jayme!)
 - [CSS Organization](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing)
 - [Semantics in HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure)
+
+---
+
+- © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
