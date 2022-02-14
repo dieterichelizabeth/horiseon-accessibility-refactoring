@@ -2,6 +2,8 @@
 
 Challenge: 01 HTML, CSS, and Git: Code Refactor
 
+Click to view the [deployed application](https://dieterichelizabeth.github.io/horiseon-accessibility-refactoring/)
+
 This is a HTML/CSS project, named based off the assigned user story-
 
 ```
